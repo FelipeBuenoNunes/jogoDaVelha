@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo da velha | HOME</title>
+    <link rel="stylesheet" href="set-style.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Jogo da velha</h1>
+
+        <div class="top">
+            <button id="top0" class="game" onclick="setArr(0,0,0)"></button>
+            <button id="top1" class="game" onclick="setArr(0,1,1)"></button>
+            <button id="top2" class="game" onclick="setArr(0,2,2)"></button>
+        </div>
+        <div class="middle">
+            <button id="middle0" class="game" onclick="setArr(1,0,3)"></button>
+            <button id="middle1" class="game" onclick="setArr(1,1,4)"></button>
+            <button id="middle2" class="game" onclick="setArr(1,2,5)"></button>
+        </div>
+        <div class="bottom">
+            <button id="bottom0" class="game" onclick="setArr(2,0,6)"></button>
+            <button id="bottom1" class="game" onclick="setArr(2,1,7)"></button>
+            <button id="bottom2" class="game" onclick="setArr(2,2,8)"></button>
+        </div>
+        <div id="resetAwin">
+            <button type="button" onclick="reset()">Reset</button>
+            <span id="winner"></span>
+        </div>
+    <script src="script.js"></script>
+</body>
+</html>

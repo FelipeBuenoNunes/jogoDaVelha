@@ -1,0 +1,76 @@
+h1{
+    text-align: center;
+    font-size: 2.3em;
+}
+
+.game{
+    font-style: monospace;
+    width: 14vw;
+    height: 25vh;
+    font-size: 9vw;
+    background: white;
+    line-height: 100%;
+    transition: 1s;    
+}
+
+.game:hover{
+    background-color: rgba(255, 0, 0, 0.3);
+}
+
+.top{
+    margin-top: 2.5%;
+}
+
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#top1, #bottom1{
+    border: solid black;
+    border-width: 0 0.5vw;
+}
+
+#middle0,
+#middle2{
+    border: solid black;
+    border-width: 0.5vw 0;
+}
+
+#middle1{
+    border: 0.5vw solid black;
+}
+
+#top0{
+    border-top-left-radius: 15%;
+}
+
+#top2{
+    border-top-right-radius: 15%;
+}
+
+#bottom0{
+    border-bottom-left-radius: 15%;
+}
+
+#bottom2{
+    border-bottom-right-radius: 15%;
+}
+
+#resetAwin{
+    margin-top: 5vh;
+    display: flex;
+    flex-direction: column;
+}
+#resetAwin > button{
+    color: white;
+    background-color: rgb(155, 0, 0);
+    border-radius: 0.5vw;
+    font-size: 1.5em;
+    width: 10%;
+    height: 5vh;
+}
+#resetAwin > span{
+    font-size: 150%;
+}
