@@ -64,6 +64,7 @@ function reset(){
         element[1] = "";
         element[2] = "";
     });
+    player = "O";
     noWinner = true;
     winner.innerText = " ";
     cont = 0;
